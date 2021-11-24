@@ -34,6 +34,6 @@ class Mod_Command : public Binary_Op_Command
 		virtual int evaluate (int n1, int n2) const;
 };
 
-#include "Mod_Command.cpp"
+//#include "Mod_Command.cpp"
 
 #endif

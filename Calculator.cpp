@@ -48,8 +48,7 @@ bool Calculator::infix_to_postfix (const std::string & infix,Command_Factory & f
 	
 	bool parentheses = false;
 	std::string s_token;
-	while (getline(input,s_token,' ' ))
-	{}
+	return 0;
 }
 
 //solve function that execute the expressions

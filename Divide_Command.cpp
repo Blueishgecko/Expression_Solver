@@ -17,7 +17,7 @@ int Divide_Command::evaluate(int n1, int n2)const
 	//REPLY TO COMMENT: Added if statement to check if bottom value will be 0
 	if(n1 == 0)
 	{
-		throw std::runtime_error("Division by zero");
+		return 0;
 	}
 	else
 	{

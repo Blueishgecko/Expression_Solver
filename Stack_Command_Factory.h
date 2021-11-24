@@ -39,7 +39,7 @@ private:
 
 };
 
-#include "Stack_Command_Factory.cpp"
+//#include "Stack_Command_Factory.cpp"
 
 #endif
 

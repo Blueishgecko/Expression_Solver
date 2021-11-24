@@ -42,6 +42,6 @@ private:
 
 };
 
-#include "Command_Factory.cpp"
+//#include "Command_Factory.cpp"
 
 #endif

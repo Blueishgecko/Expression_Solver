@@ -34,7 +34,7 @@ int Mod_Command::evaluate (int n1, int n2) const
 {
 	if ( n2 == 0 )
 	{
-		throw std::runtime_error("Division by zero");
+		return 0;
 	}
 	
 	return n1 % n2;

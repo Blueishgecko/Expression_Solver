@@ -183,6 +183,6 @@ public:
 };
 
 #include "Array_Base.inl"
-#include "Array_Base.cpp"
+//#include "Array_Base.cpp"
 
 #endif   // !defined _ARRAY_H_

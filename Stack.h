@@ -33,12 +33,12 @@ public:
 	 *
 	 * Exception thrown to indicate the stack is empty.
 	 */
-	class empty_exception : public std::runtime_error
+	class empty_exception : public std::exception
 	{
 	public:
 		/// Default constructor.
 		empty_exception(void)
-			: std::runtime_error() { }
+			: std::exception() { }
 
 		/**
 		 * Initializing constructor.
@@ -46,7 +46,7 @@ public:
 		 * @param[in]      msg         Error message.
 		 */
 		empty_exception(const char* msg)
-			: std::runtime_error(msg) { }
+			: std::exception(msg) { }
 
 	};
 
@@ -127,6 +127,6 @@ private:
 #include "Stack.inl"
 
 // include the source file since template class
-#include "Stack.cpp"
+//#include "Stack.cpp"
 
 #endif  // !defined _CS507_STACK_H_

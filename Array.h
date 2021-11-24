@@ -140,6 +140,6 @@ private:
 };
 
 #include "Array.inl"
-#include "Array.cpp"
+//#include "Array.cpp"
 
 #endif   // !defined _ARRAY_H_

@@ -20,7 +20,7 @@ protected:
 	int number_;
 };
 
-#include "Num_Command.cpp"
+//#include "Num_Command.cpp"
 
 
 #endif

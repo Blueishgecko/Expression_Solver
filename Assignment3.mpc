@@ -1,0 +1,22 @@
+// $Id: Array.mpc 820 2011-01-17 15:30:41Z hillj $
+
+project (assignment3) {
+  exename = assignment3
+  install = .
+
+  specific(make) {
+    compile_flags += -std=c++11
+  }
+
+  Source_Files {
+ 
+    driver.cpp
+  }
+
+  Template_Files {
+    
+    Stack.cpp
+  }
+}
+
+
